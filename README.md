@@ -37,12 +37,13 @@ The following packages are suitable for NVIDIA GeForce RTX 3090.
 ```
 pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
 pip install timm==0.3.2
-pip install numpy
+pip install numpy==1.23.5
 pip install matplotlib tqdm 
 pip install tensorboard
 pip install scipy
 pip install imgaug
 pip install opencv-python
+pip install pandas
 pip3 install hub
 ```
 * This repo is based on [`timm==0.3.2`](https://github.com/rwightman/pytorch-image-models), for which a [fix](https://github.com/rwightman/pytorch-image-models/issues/420#issuecomment-776459842) is needed to work with PyTorch 1.8.1+.
